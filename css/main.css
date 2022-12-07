@@ -1,0 +1,33 @@
+* {
+    border-radius: 0 !important;
+}
+
+#title {
+    font-size: 3vw;
+    margin: 5vh auto;
+    display: flex;
+    padding: 5px 13% 5px 13%;
+}
+
+#table-div {
+    margin: 5% 20% 5% 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#form-div {
+    margin: 5% 20% 5% 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#input-form-div {
+    width: max-content;
+}
+
+/* #input-form {
+    font-size: 3vw;
+    margin: 5vh auto;
+    display: flex;
+    padding: 5px 13% 0 13%;
+} */

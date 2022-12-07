@@ -4,16 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=¨stylesheet¨ href=¨css/main.css¨>
-    <script src="js/main.js"></script>
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-    </script>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+
+  <button id="title" class="btn btn-xs btn-success" disabled aria-disabled="true">MY DEVELOPER SKILLS</button>
+  <div id="table-div">
+    <table id="skills" class="table">
+      <tbody>
+        <tr>
+          <td><button class="btn btn-xs btn-danger">Remove</button></td>
+          <td>$279,500</td>
+        </tr>
+        <tr>
+          <td><button class="btn btn-xs btn-danger">Remove</button></td>
+          <td>$990,000</td>
+        </tr>
+        <tr>
+          <td><button class="btn btn-xs btn-danger">Remove</button></td>
+          <td>$400,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <form id="form-div" class="form-inline">
+      <div id="input-form-div" class="form-group mx-sm-3 mb-2">
+        <input id="input-form" class="form-control" id="input-skill">
+      </div>
+      <button type="submit" class="btn btn-xs btn-success">ADD SKILL</button>
+    </form>
+  </div>
 </body>
 </html>
